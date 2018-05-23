@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './App.css';
+//import './App.css';
 
 const Sidebar = (props) => (
     <nav id="sidebar">
@@ -16,10 +16,29 @@ const Sidebar = (props) => (
                     <a className="list-group-item list-group-item-action sidebar-item"  data-toggle="list" href="#" role="tab" aria-controls="profile">
                         Projects
                     </a>
-                    <a className="list-group-item list-group-item-action sidebar-item"  data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">
+                    <a className="list-group-item list-group-item-action sidebar-item"  data-toggle="list" href="#" role="tab" aria-controls="messages">
                         1:1 Feedback
                     </a>
                 </div>
+
+                <div className="friend">
+			            <img src={require("../Pictures/character.jpg")} />
+			            <p>
+			                <div className="chatName">Salman | Symantec</div>
+                            <div className="chatAbbr">
+                                I really liked your wor...
+                            </div>
+			            </p>
+                </div>
+                
+                <div className="friend">
+			            <img src={require("../Pictures/character.jpg")} />
+			            <p>
+                            <div className="chatName">Salman | Symantec</div>
+                            <div className="chatAbbr">I really liked your wor..</div>
+			            </p>
+			    </div>
+
     </nav>
 );
 

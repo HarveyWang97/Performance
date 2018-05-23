@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import Botchat from './Botchat';
-import Sidebar from './Sidebar';
-import Navbar from './Navbar';
+import Botchat from './Components/Botchat';
+import Sidebar from './Components/Sidebar';
+import Navbar from './Components/Navbar';
 import 'normalize.css';
 
 class App extends Component {
   render() {
     return (
       <div class="wrapper">
-           <Sidebar />
+            <Sidebar />
             <div id="content">
                    
                     <Navbar />

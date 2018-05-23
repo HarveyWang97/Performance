@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './App.css';
+//import './App.css';
 
 const Navbar = (props) => (
 
     <nav class="navbar navbar-default">
         
             <div class="navbar-header">
-                <img src={require("./sidebar_icon.png")} id="sidebarCollapse" className="sidebar" />
+                <img src={require("../Pictures/sidebar_icon.png")} id="sidebarCollapse" className="sidebar" />
             </div>
         
-            <img src={require("./Sawal.png")} 
+            <img src={require("../Pictures/Sawal.png")} 
                 className="logo"
             />                           
             <span 

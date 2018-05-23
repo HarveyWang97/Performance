@@ -24,7 +24,6 @@ a, a:hover, a:focus {
 }
 
 
-
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -100,6 +99,47 @@ a, a:hover, a:focus {
 .logo-chat{
   width:50px;
   height:40px;
+}
+
+.friend{
+	height:65px;
+    position:relative;
+    padding-left:15px;
+    margin:5px;
+}
+.friend:hover{
+	background:#f1f4f6;
+	cursor:pointer;
+}
+.friend img{
+	width:40px;
+	border-radius:50%;
+    margin:12px;
+	float:left;
+}
+
+/*.friend p{
+	padding:12px 0 0 0;			
+	float:left;
+	width:220px;
+}*/
+
+.friend p {
+    position: relative;
+    top:8px;
+    margin-left: 5px;
+}
+
+.chatName {
+    font-weight:400;
+    font-size:16px;
+    color:white;
+}
+
+.chatAbbr {
+    font-size:13px;
+	font-weight:100;
+	color:white;
 }
 
 /* ---------------------------------------------------
