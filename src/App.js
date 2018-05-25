@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
 import Botchat from './Components/Botchat';
 import Sidebar from './Components/Sidebar';
 import Navbar from './Components/Navbar';
 import 'normalize.css';
+
+
+let now = new Date();
+const dateFormat = require('dateformat');
+now = dateFormat(now, "mmmm dS, yyyy");
 
 class App extends Component {
   render() {
@@ -11,10 +15,10 @@ class App extends Component {
       <div class="wrapper">
             <Sidebar />
             <div id="content">
-                   
+
                     <Navbar />
-                    
-                    <div class="line" />
+
+                    <h4><span>{now.toString()}</span></h4>
 
                     <Botchat 
                         content=" Based on 17 reviews this month, you have a recommendation of 9 of 10 points"

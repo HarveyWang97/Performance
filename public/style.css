@@ -200,6 +200,21 @@ a, a:hover, a:focus {
   margin-bottom: 10px;
 }
 
+
+h4 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 2px solid gray; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+} 
+
+h4 span { 
+    background:#fff;
+    color:#31B0D5 !important; 
+    padding:0 10px; 
+}
+
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
